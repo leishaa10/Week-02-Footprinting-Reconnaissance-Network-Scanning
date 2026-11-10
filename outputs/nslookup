@@ -1,0 +1,24 @@
+
+WEEK 02 - NSLOOKUP OUTPUT
+========================
+
+Target Domain: networkwalks.com
+Tool: Nslookup
+
+Objective:
+To resolve the domain name into its corresponding
+IP address using DNS.
+
+Resolved Domain:
+networkwalks.com
+
+Resolved IP Address:
+192.232.216.135
+
+Observation:
+The domain name was successfully resolved to
+the IP address 192.232.216.135.
+
+Purpose:
+To identify the IP address associated with
+the target domain during reconnaissance.
