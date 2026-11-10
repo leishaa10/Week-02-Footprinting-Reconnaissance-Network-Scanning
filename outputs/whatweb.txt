@@ -1,0 +1,23 @@
+WEEK 02 - WHATWEB OUTPUT
+=======================
+
+Target: https://networkwalks.com
+Tool: WhatWeb
+
+Objective:
+To identify the technologies and frameworks
+used by the target website.
+
+Observed Technologies (as recorded in report):
+- CMS: WordPress
+- WordPress Version: 7.0.4
+- WP Download Manager: 3.3.58
+
+Observation:
+WhatWeb identified WordPress and WP Download
+Manager along with other website technology
+information.
+
+Purpose:
+To perform website technology fingerprinting
+and understand the publicly exposed web stack.
