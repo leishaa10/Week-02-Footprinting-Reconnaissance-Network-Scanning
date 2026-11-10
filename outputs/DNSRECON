@@ -1,0 +1,82 @@
+
+WEEK 02 - DNSRECON OUTPUT
+========================
+
+Command:
+dnsrecon -d networkwalks.com
+
+Target Domain:
+networkwalks.com
+
+Enumeration Date:
+09 November 2026
+
+1. DNSSEC QUERY
+---------------
+Result:
+No answer for DNSSEC query for networkwalks.com.
+
+2. SOA RECORD
+-------------
+Name Server: ns6135.hostgator.com
+IP Address: 50.87.144.87
+
+3. NS RECORDS
+-------------
+Name Server: ns6136.hostgator.com
+IP Address: 192.232.216.131
+BIND Version: 9.16.23-RH
+
+Name Server: ns6135.hostgator.com
+IP Address: 50.87.144.87
+BIND Version: 9.16.23-RH
+
+4. MX RECORD
+------------
+Mail Server: mail.networkwalks.com
+IP Address: 192.232.216.135
+
+5. A RECORD
+-----------
+Domain: networkwalks.com
+IP Address: 192.232.216.135
+
+6. TXT RECORDS
+--------------
+Google Site Verification:
+A google-site-verification TXT record was identified.
+
+SPF Record:
+v=spf1 +a +mx +ip4:50.87.144.87 +include:websitewelcome.com ~all
+
+7. SRV RECORDS
+--------------
+Service:
+_autodiscover._tcp.networkwalks.com
+
+Target:
+cpanelemaildiscovery.cpanel.net
+
+Port:
+443
+
+Resolved IP Addresses:
+184.94.203.15
+184.94.203.11
+184.94.203.9
+184.94.204.11
+184.94.204.15
+
+8. SUMMARY
+----------
+- SOA record identified.
+- Two name servers discovered.
+- MX record identified.
+- A record resolved to 192.232.216.135.
+- Google site verification TXT record found.
+- SPF configuration identified.
+- SRV records for email autodiscovery discovered.
+- No answer received for the DNSSEC query.
+
+Tool: DNSRecon
+Target: networkwalks.com
