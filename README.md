@@ -277,7 +277,8 @@ Screenshots and supporting materials from the practical exercises are included i
   <img width="957" height="975" alt="image" src="https://github.com/user-attachments/assets/5909a6de-0035-4303-b4f9-6fe49809a7b5" />
 
 - Wafw00f WAF identification results
-  <img width="956" height="762" alt="image" src="https://github.com/user-attachments/assets/3e0e8be3-c2d0-40c9-8a62-044b4ccb0181" />
+  <img width="905" height="526" alt="image" src="https://github.com/user-attachments/assets/3f6d0713-b59c-40f7-9af6-adc98d25ffc0" />
+
 
 - DNSRecon enumeration results
   <img width="952" height="873" alt="image" src="https://github.com/user-attachments/assets/47a1b5b0-1ebb-45fb-bd95-81e7721ec950" />
