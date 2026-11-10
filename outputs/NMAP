@@ -1,0 +1,64 @@
+
+WEEK 02 - NETWORK SCANNING OUTPUT
+================================
+
+Tool: Nmap (through Zenmap)
+
+Command:
+nmap -sn 192.168.0.0/24
+
+Scan Type:
+Ping Scan / Host Discovery
+
+Network:
+192.168.0.0/24
+
+Scan Date:
+10 November 2026
+
+Total IP Addresses Scanned:
+256
+
+Scan Duration:
+18.31 seconds
+
+Active Hosts Found:
+8
+
+ACTIVE HOSTS
+------------
+
+1. 192.168.0.1
+2. 192.168.0.100
+3. 192.168.0.102
+4. 192.168.0.103
+5. 192.168.0.104
+6. 192.168.0.108
+7. 192.168.0.109
+8. 192.168.0.111
+
+MAC ADDRESS OBSERVATIONS
+------------------------
+
+- Seven out of eight hosts returned MAC addresses.
+- 192.168.0.1:
+  Vendor: TP-Link Technologies
+- 192.168.0.100:
+  Vendor: Amazon Technologies
+- Five other hosts showed Unknown vendors.
+- 192.168.0.103 did not return a MAC address.
+  It was suspected to be the scanning machine.
+
+NETWORK DISCOVERY SUMMARY
+-------------------------
+
+- 256 IP addresses scanned.
+- 8 live hosts discovered.
+- 7 MAC addresses returned.
+- Network topology generated using Zenmap.
+- Legend enabled in topology view.
+- Network topology exported in PDF format.
+
+Purpose:
+To discover active devices on the local network
+and understand the network topology.
