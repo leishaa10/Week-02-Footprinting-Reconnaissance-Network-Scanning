@@ -1,0 +1,22 @@
+
+WEEK 02 - WAFW00F OUTPUT
+=======================
+
+Target: networkwalks.com
+Tool: Wafw00f
+
+Objective:
+To identify whether a Web Application Firewall
+protects the target website.
+
+Observation:
+Detected Web Application Firewall:
+ModSecurity (SpiderLabs)
+
+Result:
+The website was identified as being protected
+by ModSecurity (SpiderLabs).
+
+Purpose:
+To identify the presence and type of WAF used
+by the target website.
