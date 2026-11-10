@@ -1,0 +1,23 @@
+
+WEEK 02 - CURL OUTPUT
+====================
+
+Target: https://networkwalks.com
+Tool: cURL
+
+Command:
+curl -I https://networkwalks.com
+
+Objective:
+To inspect the HTTP response headers returned
+by the target website.
+
+Observations:
+- HTTP response headers were retrieved.
+- Additional web application information was observed.
+- WordPress REST API endpoint identified:
+  /wp-json/
+
+Purpose:
+To analyse HTTP response headers and identify
+information exposed by the web server.
