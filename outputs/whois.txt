@@ -1,0 +1,26 @@
+
+WEEK 02 - WHOIS OUTPUT
+=====================
+
+Target Domain: networkwalks.com
+Tool: WHOIS
+
+Objective:
+To collect publicly available domain registration
+information and identify the domain's name servers.
+
+Information Examined:
+- Domain registration details
+- Registrar information
+- Registration and expiry information
+- Domain name servers
+- Hosting-related information
+
+Observation:
+WHOIS was used to gather publicly available
+registration and name server information about
+networkwalks.com.
+
+Purpose:
+To understand the domain's registration details
+and infrastructure during the reconnaissance phase.
